@@ -83,46 +83,46 @@ The following table summarizes prominent SaaS platforms for template-driven docu
 
 The following open-source engines and libraries are actively used to construct document assembly engines, batch PDF renderers, and template injection pipelines. Entries are sorted descending by GitHub stargazers count:
 
-- **[typst](https://github.com/typst/typst)** [![GitHub stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
+- **[typst](https://github.com/typst/typst)** [![GitHub_Stars](https://img.shields.io/github/stars/typst/typst?style=social&color=white)](https://github.com/typst/typst/stargazers)  
   A modern, markup-based typesetting and document compilation system designed to be powerful and easy to learn (Rust, Apache-2.0); combines the layout expressiveness of LaTeX with programmatic styling, native mathematical typesetting, and instant preview compilation. **Leading modern open-source engine for programmatic document authoring, reports, and publication-ready PDFs.**
 
-- **[react-pdf](https://github.com/diegomura/react-pdf)** [![GitHub stars](https://img.shields.io/github/stars/diegomura/react-pdf?style=social&color=white)](https://github.com/diegomura/react-pdf/stargazers)  
+- **[react-pdf](https://github.com/diegomura/react-pdf)** [![GitHub_Stars](https://img.shields.io/github/stars/diegomura/react-pdf?style=social&color=white)](https://github.com/diegomura/react-pdf/stargazers)  
   Modular React-based rendering engine for creating PDF documents directly from declarative JSX components (MIT); runs seamlessly in both Node.js server environments and client-side web browsers with flexbox styling support. **Ideal for web engineering teams generating invoices, dynamic reports, and certificates using React idioms.**
 
-- **[Gotenberg](https://github.com/gotenberg/gotenberg)** [![GitHub stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social&color=white)](https://github.com/gotenberg/gotenberg/stargazers)  
+- **[Gotenberg](https://github.com/gotenberg/gotenberg)** [![GitHub_Stars](https://img.shields.io/github/stars/gotenberg/gotenberg?style=social&color=white)](https://github.com/gotenberg/gotenberg/stargazers)  
   A Docker-powered stateless REST API for converting numerous document formats (HTML, Markdown, DOCX, XLSX, PPTX, images) into standard and PDF/A files (MIT); orchestrates headless Chromium, LibreOffice, and PDF engines within a scalable containerized architecture. **The standard microservice foundation for production-grade document conversion and PDF pipelines.**
 
-- **[pdfmake](https://github.com/bpampuch/pdfmake)** [![GitHub stars](https://img.shields.io/github/stars/bpampuch/pdfmake?style=social&color=white)](https://github.com/bpampuch/pdfmake/stargazers)  
+- **[pdfmake](https://github.com/bpampuch/pdfmake)** [![GitHub_Stars](https://img.shields.io/github/stars/bpampuch/pdfmake?style=social&color=white)](https://github.com/bpampuch/pdfmake/stargazers)  
   Client-side and server-side JavaScript document generation engine using pure declarative JSON document definitions (MIT); supports complex tables, margins, vector graphics, image embedding, custom fonts, and pagination without external binary dependencies. **Battle-tested for client-side invoice and statement generation directly in the browser.**
 
-- **[WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
+- **[WeasyPrint](https://github.com/Kozea/WeasyPrint)** [![GitHub_Stars](https://img.shields.io/github/stars/Kozea/WeasyPrint?style=social&color=white)](https://github.com/Kozea/WeasyPrint/stargazers)  
   Visual rendering engine translating HTML and CSS into print-quality PDF documents (BSD-3-Clause); adheres strictly to W3C standards including CSS Paged Media (`@page`), margins, headers/footers, and page counters. **The definitive Python choice for converting modern CSS/HTML templates into high-fidelity printable business reports.**
 
-- **[docxtemplater](https://github.com/open-xml-templating/docxtemplater)** [![GitHub stars](https://img.shields.io/github/stars/open-xml-templating/docxtemplater?style=social&color=white)](https://github.com/open-xml-templating/docxtemplater/stargazers)  
+- **[docxtemplater](https://github.com/open-xml-templating/docxtemplater)** [![GitHub_Stars](https://img.shields.io/github/stars/open-xml-templating/docxtemplater?style=social&color=white)](https://github.com/open-xml-templating/docxtemplater/stargazers)  
   Template-based document generator for DOCX, PPTX, and XLSX files from Node.js or browser environments (MIT); allows non-developers to edit templates visually in Word or PowerPoint with tag syntax (`{first_name}`, `{#items}...{/items}`), merging JSON payloads without corrupting formatting. **The preeminent TypeScript/JavaScript solution for business document and contract templating.**
 
-- **[gopdf](https://github.com/signintech/gopdf)** [![GitHub stars](https://img.shields.io/github/stars/signintech/gopdf?style=social&color=white)](https://github.com/signintech/gopdf/stargazers)  
+- **[gopdf](https://github.com/signintech/gopdf)** [![GitHub_Stars](https://img.shields.io/github/stars/signintech/gopdf?style=social&color=white)](https://github.com/signintech/gopdf/stargazers)  
   Lightweight, dependency-free Go library for generating custom PDF documents from scratch (MIT); provides native TrueType font embedding, UTF-8 unicode text rendering, image drawing, and precise coordinate placement. **High-performance Go utility for generating high-throughput receipts and billing statements.**
 
-- **[docxtpl (python-docx-template)](https://github.com/elapouya/python-docx-template)** [![GitHub stars](https://img.shields.io/github/stars/elapouya/python-docx-template?style=social&color=white)](https://github.com/elapouya/python-docx-template/stargazers)  
+- **[docxtpl (python-docx-template)](https://github.com/elapouya/python-docx-template)** [![GitHub_Stars](https://img.shields.io/github/stars/elapouya/python-docx-template?style=social&color=white)](https://github.com/elapouya/python-docx-template/stargazers)  
   The most widely adopted open-source DOCX templating engine (LGPL-2.1); design a document in Word, insert Jinja2-like tags (`{{ variable }}`, `{%tr %}`, `{%p %}`), and render it from Python with full formatting preservation. Supports tables, images, headers/footers, and complex structures. **The standard foundation for programmatic DOCX generation**—mature, battle-tested, and available via Debian packages.
 
-- **[Carbone](https://github.com/carboneio/carbone)** [![GitHub stars](https://img.shields.io/github/stars/carboneio/carbone?style=social&color=white)](https://github.com/carboneio/carbone/stargazers)  
+- **[Carbone](https://github.com/carboneio/carbone)** [![GitHub_Stars](https://img.shields.io/github/stars/carboneio/carbone?style=social&color=white)](https://github.com/carboneio/carbone/stargazers)  
   Fast and versatile report generator converting JSON data into PDF, DOCX, XLSX, ODT, and PPTX documents using LibreOffice as a conversion engine (Apache-2.0); features intuitive placeholder syntax and dynamic formatting filters. **Versatile multi-format document reporting engine for Node.js backends.**
 
-- **[docx-templates](https://github.com/guigrpa/docx-templates)** [![GitHub stars](https://img.shields.io/github/stars/guigrpa/docx-templates?style=social&color=white)](https://github.com/guigrpa/docx-templates/stargazers)  
+- **[docx-templates](https://github.com/guigrpa/docx-templates)** [![GitHub_Stars](https://img.shields.io/github/stars/guigrpa/docx-templates?style=social&color=white)](https://github.com/guigrpa/docx-templates/stargazers)  
   Template-based Word (`.docx`) report creation engine for Node.js and browsers (MIT); inserts data, loops, conditionals, dynamic images, and custom JavaScript functions directly into Word templates with a clean markup syntax. **Lightweight and modern JavaScript/TypeScript alternative for template-driven DOCX generation.**
 
-- **[open-pdf-sign](https://github.com/open-pdf-sign/open-pdf-sign)** [![GitHub stars](https://img.shields.io/github/stars/open-pdf-sign/open-pdf-sign?style=social&color=white)](https://github.com/open-pdf-sign/open-pdf-sign/stargazers)  
+- **[open-pdf-sign](https://github.com/open-pdf-sign/open-pdf-sign)** [![GitHub_Stars](https://img.shields.io/github/stars/open-pdf-sign/open-pdf-sign?style=social&color=white)](https://github.com/open-pdf-sign/open-pdf-sign/stargazers)  
   Open-source command-line tool and Java library for cryptographically signing PDF documents (Apache-2.0); supports visual signature placement, timestamping (RFC 3161), digital certificates, and PDF/A compliance. **Essential building block for automated legal and enterprise document signature pipelines.**
 
-- **[gpdf](https://github.com/gpdf-dev/gpdf)** [![GitHub stars](https://img.shields.io/github/stars/gpdf-dev/gpdf?style=social&color=white)](https://github.com/gpdf-dev/gpdf/stargazers)  
+- **[gpdf](https://github.com/gpdf-dev/gpdf)** [![GitHub_Stars](https://img.shields.io/github/stars/gpdf-dev/gpdf?style=social&color=white)](https://github.com/gpdf-dev/gpdf/stargazers)  
   Go library for building PDFs from JSON schemas or Go templates; includes ready-made constructors for invoices, reports, and letters; supports **digital signatures, AES-256 encryption, PDF/A conformance**, page merging, and absolute positioning. **Strong for Go-based backend document pipelines** requiring compliance-grade output.
 
-- **[unlawful-assembly](https://github.com/splittist/unlawful-assembly)** [![GitHub stars](https://img.shields.io/github/stars/splittist/unlawful-assembly?style=social&color=white)](https://github.com/splittist/unlawful-assembly/stargazers)  
+- **[unlawful-assembly](https://github.com/splittist/unlawful-assembly)** [![GitHub_Stars](https://img.shields.io/github/stars/splittist/unlawful-assembly?style=social&color=white)](https://github.com/splittist/unlawful-assembly/stargazers)  
   Open-source client-side web application for survey-driven document assembly; creators design surveys, upload DOCX templates, map fields visually, and bundle into ZIP packages; end users complete the survey and generate customized DOCX via docxtemplater. TypeScript/Survey.js/docxtemplater stack. **The most complete open-source no-code document assembly workflow**—runs entirely in the browser with no server dependency.
 
-- **[Aldina](https://github.com/clbrge/aldina)** [![GitHub stars](https://img.shields.io/github/stars/clbrge/aldina?style=social&color=white)](https://github.com/clbrge/aldina/stargazers)  
+- **[Aldina](https://github.com/clbrge/aldina)** [![GitHub_Stars](https://img.shields.io/github/stars/clbrge/aldina?style=social&color=white)](https://github.com/clbrge/aldina/stargazers)  
   Open-source engine for producing **on-brand, print-grade documents**—letters, reports, decks, invoices, one-pagers—from content and a theme (AGPL-3.0 with commercial option). Pipeline: ChoirMark → compose into theme grammar → **gate (admit/reject based on fit, contrast, hierarchy)** → project to PDF. Deterministic layout with bounded LLM checkpoints; the gate refuses pages that don't pass hard checks rather than shipping broken output. **The most sophisticated open-source approach to print-quality branded document generation**, with a novel quality-gate architecture.
 
 ---
@@ -158,7 +158,7 @@ When designing custom document generation architectures:
 Contributions are welcome and appreciated! To maintain the highest quality:
 1. 🍴 Fork this repository.
 2. 📝 Add or update entries in `README.md` (ensure links, descriptions, and categories adhere to the existing format).
-3. 🔍 Verify licensing, star count, and accurate descriptions.
+3. 🔍 Verify licensing, Stars_Count, and accurate descriptions.
 4. 🚀 Open a Pull Request with a clear, concise summary of the addition.
 
 ---
@@ -184,3 +184,12 @@ If you find this curated ecosystem directory helpful in building your document w
 <p align="center">
   <strong>Made with ❤️ for document automation engineers, legal operations practitioners, and report architects worldwide.</strong>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Document-Generation&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Document-Generation_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Document-Generation_growth.svg">
+  </picture>
+</a>
