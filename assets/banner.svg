@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background: #090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080c14"/>
       <stop offset="50%" stop-color="#0f172a"/>
       <stop offset="100%" stop-color="#1e1b4b"/>
     </linearGradient>
 
+    <!-- Glowing Accent Gradients -->
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="50%" stop-color="#818cf8"/>
@@ -33,6 +35,7 @@
     </filter>
 
     <style>
+      /* Animated Background Elements */
       @keyframes floatSlow {
         0%, 100% { transform: translateY(0px) rotate(0deg); }
         50% { transform: translateY(-16px) rotate(3deg); }
@@ -52,14 +55,16 @@
 
       .float-item1 { animation: floatSlow 7s ease-in-out infinite; }
       .float-item2 { animation: floatReverse 8s ease-in-out infinite; }
-      .float-item3 { animation: floatSlow 6s< ease-in-out infinite 1.5s; }
+      .float-item3 { animation: floatSlow 6s ease-in-out infinite 1.5s; }
       .pulse-bg { animation: pulseGlow 6s ease-in-out infinite alternate; }
-      .data-stream { stroke-dashlines: 6 10; stroke-dashoffset: 0; animation: dashStream 2s linear infinite; }
+      .data-stream { stroke-dasharray: 6 10; stroke-dashoffset: 0; animation: dashStream 2s linear infinite; }
     </style>
   </defs>
 
+  <!-- Background Base Canvas -->
   <rect width="1200" height="360" fill="url(#bgGradient)"/>
 
+  <!-- Subtle Blueprint / Grid Layer -->
   <g opacity="0.07" stroke="#94a3b8" stroke-width="1">
     <line x1="0" y1="60" x2="1200" y2="60"/>
     <line x1="0" y1="120" x2="1200" y2="120"/>
@@ -73,10 +78,18 @@
     <line x1="1000" y1="0" x2="1000" y2="360"/>
   </g>
 
+  <!-- Dynamic Animated Ambient Glow Lights (Deep Background) -->
   <circle class="pulse-bg" cx="150" cy="80" r="160" fill="#38bdf8" filter="url(#glow)"/>
   <circle class="pulse-bg" cx="1080" cy="280" r="170" fill="#a855f7" filter="url(#glow)"/>
   <circle class="pulse-bg" cx="600" cy="180" r="140" fill="#6366f1" filter="url(#glow)"/>
+
+  <!-- Animated Data Streams (Deep Background) -->
+  <g opacity="0.35">
+    <path class="data-stream" d="M 80 180 C 260 80, 380 280, 560 180" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <path class="data-stream" d="M 640 180 C 800 280, 940 80, 1120 180" fill="none" stroke="#c084fc" stroke-width="2"/>
+  </g>
   
+  <!-- Floating Dynamic Tech Cards / Badges (Side Placement - Keeps Center Foreground Clear) -->
   <g class="float-item1">
     <rect x="50" y="55" width="130" height="38" rx="19" fill="url(#pillGrad1)" stroke="#38bdf8" stroke-width="1.2"/>
     <circle cx="72" cy="74" r="6" fill="#38bdf8"/>
@@ -86,7 +99,7 @@
   <g class="float-item2">
     <rect x="75" y="260" width="145" height="38" rx="19" fill="url(#pillGrad2)" stroke="#818cf8" stroke-width="1.2"/>
     <circle cx="97" cy="279" r="6" fill="#818cf8"/>
-    <text x="111" y="284" fill="#e0e7ff" font-size="13" font-weight="600" letter-spacing="0.5">PDF/A & office</text>
+    <text x="111" y="284" fill="#e0e7ff" font-size="13" font-weight="600" letter-spacing="0.5">PDF/A &amp; Sign</text>
   </g>
 
   <g class="float-item3">
@@ -101,6 +114,7 @@
     <text x="1021" y="279" fill="#e0f2fe" font-size="13" font-weight="600" letter-spacing="0.5">High-Speed VDP</text>
   </g>
 
+  <!-- CENTER FOREGROUND: Header, Title, Subtitle, Capability Tags -->
   <g transform="translate(470, 38)">
     <rect x="0" y="0" width="260" height="28" rx="14" fill="#1e293b" stroke="#475569" stroke-width="1"/>
     <text x="130" y="19" fill="#94a3b8" font-size="12" font-weight="700" letter-spacing="1.5" text-anchor="middle">CURATED ECOSYSTEM DIRECTORY</text>
@@ -109,7 +123,7 @@
   <text x="600" y="128" fill="#ffffff" font-size="42" font-weight="800" text-anchor="middle" letter-spacing="-0.5">Awesome Document Generation</text>
   <rect x="450" y="148" width="300" height="3.5" rx="1.75" fill="url(#accentGrad)"/>
 
-  <text x="600" y="188" fill="#cbd5e1" font-size="18" font-weight="500" text-anchor="middle" letter-spacing="0.2">The Definitive Guide to Automated Document Assembly & PDF Pipelines</text>
+  <text x="600" y="188" fill="#cbd5e1" font-size="18" font-weight="500" text-anchor="middle" letter-spacing="0.2">The Definitive Guide to Automated Document Assembly &amp; PDF Pipelines</text>
   <text x="600" y="216" fill="#94a3b8" font-size="14" font-weight="400" text-anchor="middle">SaaS Enterprise Platforms • Open-Source Libraries • Batch VDP • PDF Signatures</text>
 
   <g transform="translate(340, 252)">
@@ -117,12 +131,12 @@
     <text x="57" y="17" fill="#38bdf8" font-size="11.5" font-weight="600" text-anchor="middle">DOCX / Jinja2</text>
 
     <rect x="130" y="0" width="125" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-    <text x="192" y="17" fill="#818cf8" font-size="11.5" font-weight="600" text-anchor="middle">Typst & HTML/CSS</text>
+    <text x="192" y="17" fill="#818cf8" font-size="11.5" font-weight="600" text-anchor="middle">Typst &amp; HTML/CSS</text>
 
     <rect x="270" y="0" width="110" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
     <text x="325" y="17" fill="#c084fc" font-size="11.5" font-weight="600" text-anchor="middle">Docker APIs</text>
 
     <rect x="395" y="0" width="125" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-    <text x="457" y="17" fill="#34d399" font-size="11.5" font-weight="600" text-anchor="middle">CRM &eSign CPQ</text>
+    <text x="457" y="17" fill="#34d399" font-size="11.5" font-weight="600" text-anchor="middle">CRM &amp; eSign CPQ</text>
   </g>
 </svg>
